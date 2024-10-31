@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#projetos {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Playwrite GB S";
+}
+.quadros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.quadro {
+    width: 350px;
+    height: 30vh;
+    margin: 15px;
+}
+
+.quadro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

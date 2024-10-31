@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="">
+    <header id="comp">
+        <div></div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="projetos.html">Projetos</a></div>
+        <div><a href="habilidades.html">Habilidades</a></div>
+        <div><a href="sobre.html">Sobre</a></div>
+        <div><a href="contato.html">Contato</a></div>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" id="muda"></span>
+        </label>
+    </header>
+    <header id="mobile">
+        <div class="dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512"
+                onclick="menususpenso()" class="dropbtn">
+                <path fill="#ffffff"
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="habilidades.html">Habilidades</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+        </div>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" id="muda2"></span>
+        </label>
+        
+    </header>
+    <div id="meio">
+        <div>Sofia Louzada Parreias<br>Desenvolvedora e web designer</div>
+        <div class="imagem"><img src="sofiafoto.png"></div>
+    </div>
+    <div id="meio2">
+        <h1>Sofia Louzada Parreias</h1>
+        <div id="barra"></div>
+        <h3 id="dev">Desenvolvedora e web designer</h3>
+        <div id="sobrecontato">SOBRE/CONTATO</div>
+        <div class="imagem"><img src="sofiafoto.png"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

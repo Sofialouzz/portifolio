@@ -1,0 +1,40 @@
+.itens {
+    padding: 20px;
+    display: flex;
+}
+
+.itens .item {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.cont {
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+#meio4 div h2 {
+    margin-left: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#meio4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
